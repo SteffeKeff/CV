@@ -1,0 +1,27 @@
+body{
+	background-color:rgba(66, 139, 202, 0.05);
+}
+ul{
+	padding:0px;
+}
+.header{
+	background-color:rgba(174, 204, 232, 0.98); /* Med opacity*/
+	/*background-color:#aecce8; /* Utan opacity*/
+	text-align:center;
+	position:fixed;
+	width:100%;
+	top:0px;
+	z-index: 1; /*Annars går content över header vid scrollning*/
+}
+.content{
+	margin-top:220px;
+}
+.photo{
+	height:100px;
+	width:100px;
+	float:left;
+}
+.watermark{
+	opacity:0.5;
+ 	color:white;
+}
