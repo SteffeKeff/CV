@@ -1,0 +1,48 @@
+h1{
+	position:fixed;
+	top:25px;
+	left:-5px;
+	font-size:42px;
+}
+h1,h3{
+	color:#428bca;
+}
+.photo{
+	position:fixed;
+	top: -20px;
+	margin-left:140px;
+	height: 80px;
+	width: 80px;
+}
+.content{
+	margin-top:120px;
+	margin-right:5px;
+	width:100%;
+}
+.block{
+	width:100%;
+}
+.panel{
+	border:none;
+}
+.list-group-item{
+	border:none;
+	width:200px;
+	padding:1px;
+}
+.well, .badge{
+	box-shadow: none;
+	border:none;
+	padding-top:0px;
+	margin:0px;
+	margin-top:-10px;
+}
+.badge{
+	margin-top:5px;
+}
+.well:last-child {
+  display:none;
+}
+.fa{
+	font-size:0px;
+}
